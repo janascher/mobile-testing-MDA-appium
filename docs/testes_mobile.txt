@@ -1,0 +1,34 @@
+Teste Mobile
+
+Tipos de Aplicações:
+- Nativo: feito especificamente para Android ou IOS (é melhor, mas é mais caro).
+- Híbrido: feito através de um gerador que cria 2 apps (mais em conta).
+- Web App ou Web Dav: site responsivo que parece um app (é quase de graça) -> site disfarçado de aplicativo.
+
+Curiosidades:
+- Projeto mobile é mais demorado e caro que projeto web. A estimativa é em torno de 30% a 50% a mais de tempo.
+
+Roteiro da aula:
+1- Baixar o Android Studio, por causa do emulador: https://developer.android.com/studio?hl=pt-br
+1.1- SDK Manager: controle dos SDKs (programa que conversa com a aplicação).
+1.1.1- Verifica ou adiciona o SDK relativo a versão do Android que quer testar.
+1.2- Virtual Device Manager: programa que tem o emulador
+1.2.1 - Cria e/ou abre um aparelha com a versão do Android desejada (pode ser necessário realizar o download da imagem)
+2- Emulador
+2.1- Aguarde terminar de ligar
+2.2- Arraste e solte o .apk que você quer testar
+2.3- Na tela principal do aparelho, arraste a tela para cima e veja se consta o novo app na lista
+2.4-  Baixe e arraste para o emulador o APK Info
+- Objetivo de fazer o mapeamento das informações iniciais do app
+2.4.1- Utilize o APK Info para descobrir
+- appPackage: **com.saucelabs.mydemoapp.android**
+- appActivity: **com.saucelabs.mydemoapp.android.view.activities.SplashActivity**
+3- Appium Inspector
+3.1- Baixe e instale o Appium Inspector
+3.2- Abra e configure
+- Seu servidor/serviço
+- Suas credenciais
+- Suas configurações (Desired Capabilities)
+4- Saucelabs
+4.1- Crie sua conta (de preferência com e-mail, mas funciona com as demais)
+4.2- Copie as suas credenciais para usar no Appium Inspector
