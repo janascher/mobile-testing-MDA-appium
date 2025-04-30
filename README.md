@@ -133,7 +133,6 @@ Abaixo, algumas evidências extraídas das execuções no Sauce Labs mostrando t
   <img src="docs/screenshots/0000screenshot.png" alt="Teste passou 1" width="200"/>
   <img src="docs/screenshots/0001screenshot.png" alt="Teste passou 2" width="200"/>
   <img src="docs/screenshots/0002screenshot.png" alt="Teste passou 3" width="200"/>
-  <img src="docs/screenshots/0003screenshot.png" alt="Teste passou 4" width="200"/>
 </p>
 
 ## 🦸🏻‍♀️ Autor
